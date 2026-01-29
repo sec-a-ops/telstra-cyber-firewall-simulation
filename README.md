@@ -62,3 +62,28 @@ python test_requests.py
 
 ### Expected Result
 All malicious requests should be blocked, resulting in 403 Forbidden responses.
+
+📁 Project Structure
+```
+.
+├── firewall_server.py   # Firewall HTTP server with blocking rules
+├── test_requests.py     # Simulates the malicious RCE attack
+└── README.md
+```
+🚀 Future Improvements
+
+Regex-based and heuristic detection
+
+Rate limiting and IP-based blocking
+
+Request logging and alerting
+
+Integration with real WAF rule formats
+
+Anomaly-based detection instead of static signatures
+
+📌 Disclaimer
+
+This project is a learning simulation and not a production-ready firewall.
+No real systems were attacked.
+
